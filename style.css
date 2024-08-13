@@ -1,44 +1,28 @@
-p,li,h1,h2,h3,h4 {
-    color: white;
-    font-family: monospace;
-}
-a:link {
-    color: white
-}
-a:visited {
-    color: white
-}
-
 body {
     background-image: url("PrairieWind.png");
     background-repeat: repeat;
-  }
-
-html {
-    margin: 5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes full viewport height */
 }
 
-/* Example for h1 heading with background */
-h1 {
+.container {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+    text-align: center;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 1); /* Use an appropriate color for the background */
-    padding: 10px; /* Add some padding to create space between text and background */
-  }
-  
-  /* Example for paragraphs (p) with background */
-  p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 1); /* Use an appropriate color for the background */
-    padding: 5px; /* Add some padding to create space between text and background */
-  }
+}
 
-  .background-heading {
-    background-color: rgba(0, 0, 0, 1);
-    padding: 10px;
-  }
-  
-  .background-paragraph {
-    background-color: rgba(0, 0, 0, 1);
-    padding: 5px;
-  }
-  
+a:link, a:visited {
+    color: white;
+}
+
+p, li, h1, h2, h3, h4 {
+    margin: 10px 0; /* Add some margin for spacing between elements */
+}
